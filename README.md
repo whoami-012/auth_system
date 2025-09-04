@@ -1,11 +1,11 @@
-# 🔐 Python Authentication System
+# Python Authentication System
 
 A simple authentication system built with **Python**, **Postgres (Neon DB)**, and **bcrypt**.
 Supports secure user registration, login with password hashing, and retry protection.
 
 ---
 
-## 🚀 Features
+## Features
 
 * User registration with **bcrypt-hashed passwords**
 * Login with retry protection (max 3 attempts by default)
@@ -72,7 +72,7 @@ python main.py
 
 ---
 
-## 🛡 Security Notes
+## Security Notes
 
 * Passwords are stored using **bcrypt** (not plaintext ✅).
 * `.env` is **ignored by Git** (check `.gitignore`).
@@ -95,6 +95,6 @@ Pull requests are welcome! For major changes, open an issue first to discuss you
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
